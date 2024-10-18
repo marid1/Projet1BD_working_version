@@ -163,6 +163,18 @@
     <Compile Include="frmAjoutChambre.Designer.cs">
       <DependentUpon>frmAjoutChambre.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAjoutClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjoutClient.Designer.cs">
+      <DependentUpon>frmAjoutClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAjoutInvite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjoutInvite.Designer.cs">
+      <DependentUpon>frmAjoutInvite.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAjoutSoin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +198,12 @@
     </Compile>
     <Compile Include="frmGestionChambre.Designer.cs">
       <DependentUpon>frmGestionChambre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionClientInvite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionClientInvite.Designer.cs">
+      <DependentUpon>frmGestionClientInvite.cs</DependentUpon>
     </Compile>
     <Compile Include="frmGestionSoin.cs">
       <SubType>Form</SubType>
@@ -228,6 +246,12 @@
     <EmbeddedResource Include="frmAjoutChambre.resx">
       <DependentUpon>frmAjoutChambre.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAjoutClient.resx">
+      <DependentUpon>frmAjoutClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAjoutInvite.resx">
+      <DependentUpon>frmAjoutInvite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAjoutSoin.resx">
       <DependentUpon>frmAjoutSoin.cs</DependentUpon>
     </EmbeddedResource>
@@ -242,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGestionChambre.resx">
       <DependentUpon>frmGestionChambre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionClientInvite.resx">
+      <DependentUpon>frmGestionClientInvite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGestionSoin.resx">
       <DependentUpon>frmGestionSoin.cs</DependentUpon>

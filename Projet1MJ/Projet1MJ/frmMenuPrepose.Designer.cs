@@ -71,6 +71,7 @@
             this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Name = "gérerLesClientsEtLeursInvitésToolStripMenuItem";
             this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Size = new System.Drawing.Size(365, 30);
             this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Text = "Gérer les clients et leurs invités";
+            this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Click += new System.EventHandler(this.gérerLesClientsEtLeursInvitésToolStripMenuItem_Click);
             // 
             // planifierDesSoinsToolStripMenuItem
             // 

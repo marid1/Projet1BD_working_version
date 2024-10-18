@@ -29,5 +29,13 @@ namespace Projet1MJ
             fConnexion.ShowDialog();
             this.Close();
         }
+
+        private void gérerLesClientsEtLeursInvitésToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGestionClientInvite fGestionClientInvite = new frmGestionClientInvite();
+            this.Hide();
+            fGestionClientInvite.ShowDialog();
+            this.Show();
+        }
     }
 }

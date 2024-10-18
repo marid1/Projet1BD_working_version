@@ -61,5 +61,13 @@ namespace Projet1MJ
             fGestionChambre.ShowDialog();
             this.Show();
         }
+
+        private void gérerLesClientsEtLeursInvitésToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGestionClientInvite fGestionClientInvite = new frmGestionClientInvite();
+            this.Hide();
+            fGestionClientInvite.ShowDialog();
+            this.Show();
+        }
     }
 }

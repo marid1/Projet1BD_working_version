@@ -19,14 +19,6 @@ namespace Projet1MJ
             InitializeComponent();
         }
 
-        private void typeChambreBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.typeChambreBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.bDB56Projet1MJDataSet);
-
-        }
-
         private void frmGestionTypeChambre_Load(object sender, EventArgs e)
         {
             // TODO: cette ligne de code charge les données dans la table 'bDB56Projet1MJDataSet.chambre'. Vous pouvez la déplacer ou la supprimer selon les besoins.

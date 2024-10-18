@@ -34,14 +34,14 @@
             this.gérerLesClientsEtLeursInvitésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gérerLesAssistantsEtLeursSoinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gérerLesSoinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.planifierDesSoinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gérerLesChambresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gérerLesTypesDeChambresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.planifierDesSoinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.réserverDesChambresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visualiserLesRapportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.déconnexionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.gérerLesTypesDeChambresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,6 +90,7 @@
             this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Name = "gérerLesClientsEtLeursInvitésToolStripMenuItem";
             this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Size = new System.Drawing.Size(388, 30);
             this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Text = "Gérer les clients et leurs invités";
+            this.gérerLesClientsEtLeursInvitésToolStripMenuItem.Click += new System.EventHandler(this.gérerLesClientsEtLeursInvitésToolStripMenuItem_Click);
             // 
             // gérerLesAssistantsEtLeursSoinsToolStripMenuItem
             // 
@@ -104,18 +105,25 @@
             this.gérerLesSoinsToolStripMenuItem.Text = "Gérer les soins";
             this.gérerLesSoinsToolStripMenuItem.Click += new System.EventHandler(this.gérerLesSoinsToolStripMenuItem_Click);
             // 
-            // planifierDesSoinsToolStripMenuItem
-            // 
-            this.planifierDesSoinsToolStripMenuItem.Name = "planifierDesSoinsToolStripMenuItem";
-            this.planifierDesSoinsToolStripMenuItem.Size = new System.Drawing.Size(388, 30);
-            this.planifierDesSoinsToolStripMenuItem.Text = "Planifier des soins";
-            // 
             // gérerLesChambresToolStripMenuItem
             // 
             this.gérerLesChambresToolStripMenuItem.Name = "gérerLesChambresToolStripMenuItem";
             this.gérerLesChambresToolStripMenuItem.Size = new System.Drawing.Size(388, 30);
             this.gérerLesChambresToolStripMenuItem.Text = "Gérer les chambres";
             this.gérerLesChambresToolStripMenuItem.Click += new System.EventHandler(this.gérerLesChambresToolStripMenuItem_Click);
+            // 
+            // gérerLesTypesDeChambresToolStripMenuItem
+            // 
+            this.gérerLesTypesDeChambresToolStripMenuItem.Name = "gérerLesTypesDeChambresToolStripMenuItem";
+            this.gérerLesTypesDeChambresToolStripMenuItem.Size = new System.Drawing.Size(388, 30);
+            this.gérerLesTypesDeChambresToolStripMenuItem.Text = "Gérer les types de chambres";
+            this.gérerLesTypesDeChambresToolStripMenuItem.Click += new System.EventHandler(this.gérerLesTypesDeChambresToolStripMenuItem_Click);
+            // 
+            // planifierDesSoinsToolStripMenuItem
+            // 
+            this.planifierDesSoinsToolStripMenuItem.Name = "planifierDesSoinsToolStripMenuItem";
+            this.planifierDesSoinsToolStripMenuItem.Size = new System.Drawing.Size(388, 30);
+            this.planifierDesSoinsToolStripMenuItem.Text = "Planifier des soins";
             // 
             // réserverDesChambresToolStripMenuItem
             // 
@@ -153,13 +161,6 @@
             this.label1.Size = new System.Drawing.Size(301, 36);
             this.label1.TabIndex = 4;
             this.label1.Text = "Menu administrateur :";
-            // 
-            // gérerLesTypesDeChambresToolStripMenuItem
-            // 
-            this.gérerLesTypesDeChambresToolStripMenuItem.Name = "gérerLesTypesDeChambresToolStripMenuItem";
-            this.gérerLesTypesDeChambresToolStripMenuItem.Size = new System.Drawing.Size(388, 30);
-            this.gérerLesTypesDeChambresToolStripMenuItem.Text = "Gérer les types de chambres";
-            this.gérerLesTypesDeChambresToolStripMenuItem.Click += new System.EventHandler(this.gérerLesTypesDeChambresToolStripMenuItem_Click);
             // 
             // frmMenuAdmin
             // 
